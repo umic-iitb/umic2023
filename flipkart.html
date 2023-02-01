@@ -50,27 +50,28 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+  
+        <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1 class="logo mr-auto"><a href="index.html">Imperial</a></h1> -->
+  
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="index.html#about">AeRoVe & SeDriCa</a></li>
+            <li><a class="nav-link scrollto " href="index.html#portfolio">Projects</a></li>
+            <li><a class="nav-link scrollto" href="index.html#team">Leads</a></li>
+            <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
+      </div>
+    </header><!-- End Header -->
 
-      <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>
-      <!-- Uncomment below if you prefer to use a text logo -->
-      <!-- <h1 class="logo mr-auto"><a href="index.html">Imperial</a></h1> -->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">AeRoVe & SeDriCa</a></li>
-          <li><a class="nav-link scrollto " href="index.html#portfolio">Projects</a></li>
-          <li><a class="nav-link scrollto" href="index.html#team">Leads</a></li>
-          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
 
   <main id="main">
 
@@ -99,27 +100,19 @@
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
+                <div class="swiper-slide">
+                  <img src="assets/img/flipkart/rob_14.png" alt="">
+                </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/igvc23/Screenshot from 2021-10-06 06-08-11.png" alt="">
+                  <img src="assets/img/flipkart/43.JPG" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/flipkart/Screenshot 2023-02-02 at 12.23.54 AM.png" alt="">
                 </div>
                 
-                <div class="swiper-slide">
-                  <img src="assets/img/igvc23/cart.jpeg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/igvc23/5E5A0270.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/igvc23/5E5A0271.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/igvc23/select_area.jpeg" alt="">
-                </div>
-
+                
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -129,16 +122,20 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Competition</strong>: IGVC 2023</li>
-                <li><strong>Organizer</strong>: Intelligent Ground Vehicle Competition</li>
-                <li><strong>Project date</strong>: June, 2023</li>
+                <li><strong>Competition</strong>: GRiD 2.0 Indoor Drone Navigation Challenge</li>
+                <li><strong>Organizer</strong>: Flipkart</li>
+                <li><strong>Project date</strong>: 2020</li>
               </ul>
             </div>
             <div class="portfolio-description">
-              <p>
-                The Intelligent Ground Vehicle Competition offers a specialized experience at the cutting edge of engineering education. It is multidisciplinary, theory-based, hands-on, team-implemented, outcome assessed and based on product realization. It encompasses the latest technologies impacting industrial development and taps subjects of high interest to students. It comprises 2 competitions: the Self Drive challenge, where we are tasked with building intelligent driving vehicles for the current and future roadway systems, and the AutoNav challenge, which involves making a smaller bot to tackle an outdoor obstacle course. 
-              </p><p>For this competition, a big management problem is making arrangments for our travel and accommodation there. It involves visa applications, flight tickets, vehicle transport and accommodation for our stay there. We have been preparing for more than 2 years for this competition and believe strongly that we will make everyone proud.
-
+        
+              </p>Team Aerove was among the Top 3 teams of the nation in the Autonomous Indoor
+              Drone problem statement of the competition. The team developed an Autonomous
+              Quadrotor capable of navigating in a GPS-denied environment. The quadrotor detected
+              obstacle frames using a Conditional Cascaded Filtering architecture, and then traversed
+              through them without collision. The quadrotor localized itself using ORBSLAM2, a visual
+              SLAM algorithm. The team verified their solution by successfully demonstrating the
+              mission in a simulated environment using PX4-Gazebo Simulation.
               </p>
             </div>
           </div>
