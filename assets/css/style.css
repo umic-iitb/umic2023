@@ -601,6 +601,21 @@ section {
   font-size: 28px;
 }
 
+#about .subscribe-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
 #about2 .about-text {
   line-height: 26px;
   margin-bottom: 15px;
